@@ -19,7 +19,9 @@ const Login = () => {
         <Container>
           <Row>
             <Col lg='6' md='6' sm='12' className='m-auto text-center'>
-              <form className='form mb-5' onSubmit={submitHandler}>
+              <form 
+              action="https://getform.io/f/d95619c6-eefd-44d7-8017-c55da000f0d2"
+              method="POST" className='form mb-5' onSubmit={submitHandler}>
                 <div className='form__group'>
                   <input
                     type='email'
@@ -34,7 +36,8 @@ const Login = () => {
                     ref={loginPasswordRef}
                   ></input>
                 </div>
-                <button type='submit' className='addToCart__btn'>
+                <button 
+                 type='submit' className='addToCart__btn'>
                   Login
                 </button>
               </form>

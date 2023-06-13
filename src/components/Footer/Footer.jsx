@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap';
 import logo from '../../assets/images/res-logo.png';
 import '../../styles/footer.css';
+import Header from '../Header/Header';
+
 
 const Footer = () => {
   return (
@@ -37,11 +39,11 @@ const Footer = () => {
             <h5 className='footer__title'>Contact</h5>
             <ListGroup className='delivery__time-list'>
               <ListGroupItem className='delivery__time-item border-0 ps-0'>
-                <span>Location: 123 Olympiakatu, Espoo, FI</span>
+                <span>Location: 123 new, delhi, FIR</span>
               </ListGroupItem>
 
               <ListGroupItem className='delivery__time-item border-0 ps-0'>
-                <span>Hotline: +358 412 345 023</span>
+                <span>Call Line : +123 4567 890</span>
               </ListGroupItem>
 
               <ListGroupItem className='delivery__time-item border-0 ps-0'>
@@ -52,19 +54,25 @@ const Footer = () => {
           <Col lg='3' md='4' sm='6'>
             <h5 className='footer__title'>Newsletter</h5>
             <p>Subcribe our newsletter</p>
-            <div className='newsletter'>
-              <input type='email' placeholder='Enter your email'></input>
-              <span>
-                <i class='ri-send-plane-line'></i>
-              </span>
-            </div>
+            <form action="https://getform.io/f/d95619c6-eefd-44d7-8017-c55da000f0d2"
+              method="POST">
+            
+            <input className='new-in-put' type='name' placeholder='Enter your name'
+              ></input>
+              <input className='new-in-put' type='email' placeholder='Enter your email'
+              ></input>
+              <div><button className='new-btn-mit'>Submit</button></div>
+              
+          
+            
+            </form>
+            
           </Col>
         </Row>
         <Row className='mt-5'>
           <Col lg='6' md='6'>
             <p className='copyright__text'>
-              Copyright - 2022, made by Tram Nguyen, under guidance from Muhibur
-              Rahman
+              Copyright - 2023, made by food bio, under guidance from nandhakumar
             </p>
           </Col>
           <Col lg='6' md='6'>
@@ -72,17 +80,17 @@ const Footer = () => {
               <p className='m-0'>Follow us: </p>
               <span>
                 <Link to='https://www.facebook.com/tramngoc1999'>
-                  <i className='ri-facebook-circle-fill'></i>
+                  <i className='ri-facebook-circle-fill' onClick={Footer}></i>
                 </Link>
               </span>
               <span>
                 <Link to='https://github.com/tramnguyenhere'>
-                  <i className='ri-github-fill'></i>
+                  <i className='ri-github-fill' onClick={Header}></i>
                 </Link>
               </span>
               <span>
                 <Link to='https://www.linkedin.com/in/tramnguyenhere/'>
-                  <i className='ri-linkedin-box-fill'></i>
+                  <i className='ri-linkedin-box-fill' onClick={Header}></i>
                 </Link>
               </span>
             </div>

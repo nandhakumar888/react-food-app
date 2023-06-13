@@ -64,7 +64,7 @@ const TestimonialSlider = () => {
         </p>
         <div className='slider__content d-flex align-items-center gap-3'>
           <img src={ava04} alt='avatar' className=' rounded' />
-          <h6>Karen Doe</h6>
+          <h6>NandhaKumar</h6>
         </div>
       </div>
     </Slider>

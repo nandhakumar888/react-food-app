@@ -112,14 +112,14 @@ const FoodDetails = () => {
               ) : (
                 <div className='tab__form mb-3'>
                   <div className='review pt-5'>
-                    <p className='user__name mb-0'>John Doe</p>
-                    <p className='user__email'>johndoe@gmail.com</p>
+                    <p className='user__name mb-0'>Nandha kumar</p>
+                    <p className='user__email'>srinanjundesvarar888@gmail.com</p>
                     <p className='feedback__text'>Great food</p>
                   </div>
 
                   <div className='review'>
-                    <p className='user__name mb-0'>John Doe</p>
-                    <p className='user__email'>johndoe@gmail.com</p>
+                    <p className='user__name mb-0'>Nandha kumar</p>
+                    <p className='user__email'>srinanjundesvarar888@gmail.com</p>
                     <p className='feedback__text'>Great food</p>
                   </div>
                   <div className='review'>

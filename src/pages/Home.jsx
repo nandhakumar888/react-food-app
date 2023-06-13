@@ -90,9 +90,10 @@ const Home = () => {
                 </p>
 
                 <div className='hero__btns d-flex align-items-center gap-5 mt-4'>
+                  <Link to="/foods">
                   <button className='order__btn d-flex align-items-center justify-content-between'>
                     Order now <i className='ri-arrow-right-s-line'></i>
-                  </button>
+                  </button></Link>
 
                   <button className='all__foods-btn'>
                     <Link to='/foods'>See all foods</Link>
